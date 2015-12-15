@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		A6E5D1051C1FFD8A009806E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E5D1041C1FFD8A009806E0 /* main.m */; };
 		A6E5D1081C1FFD8A009806E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E5D1071C1FFD8A009806E0 /* AppDelegate.m */; };
-		A6E5D10B1C1FFD8A009806E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E5D10A1C1FFD8A009806E0 /* ViewController.m */; };
 		A6E5D10E1C1FFD8A009806E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6E5D10C1C1FFD8A009806E0 /* Main.storyboard */; };
 		A6E5D1101C1FFD8A009806E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E5D10F1C1FFD8A009806E0 /* Images.xcassets */; };
 		A6E5D1131C1FFD8A009806E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6E5D1111C1FFD8A009806E0 /* LaunchScreen.xib */; };
 		A6E5D11F1C1FFD8A009806E0 /* MyManualLogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E5D11E1C1FFD8A009806E0 /* MyManualLogTests.m */; };
+		A6E5D12C1C200E55009806E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E5D12B1C200E55009806E0 /* ViewController.m */; };
+		A6E5D12E1C200EA5009806E0 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E5D12D1C200EA5009806E0 /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,15 @@
 		A6E5D1041C1FFD8A009806E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6E5D1061C1FFD8A009806E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A6E5D1071C1FFD8A009806E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A6E5D1091C1FFD8A009806E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A6E5D10A1C1FFD8A009806E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A6E5D10D1C1FFD8A009806E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6E5D10F1C1FFD8A009806E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A6E5D1121C1FFD8A009806E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A6E5D1181C1FFD8A009806E0 /* MyManualLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyManualLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E5D11D1C1FFD8A009806E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6E5D11E1C1FFD8A009806E0 /* MyManualLogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyManualLogTests.m; sourceTree = "<group>"; };
+		A6E5D12A1C200E55009806E0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6E5D12B1C200E55009806E0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6E5D12D1C200EA5009806E0 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6E5D12E1C200EA5009806E0 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +84,11 @@
 		A6E5D1011C1FFD8A009806E0 /* MyManualLog */ = {
 			isa = PBXGroup;
 			children = (
+				A6E5D12D1C200EA5009806E0 /* FacebookSDK.framework */,
 				A6E5D1061C1FFD8A009806E0 /* AppDelegate.h */,
 				A6E5D1071C1FFD8A009806E0 /* AppDelegate.m */,
-				A6E5D1091C1FFD8A009806E0 /* ViewController.h */,
-				A6E5D10A1C1FFD8A009806E0 /* ViewController.m */,
+				A6E5D12A1C200E55009806E0 /* ViewController.h */,
+				A6E5D12B1C200E55009806E0 /* ViewController.m */,
 				A6E5D10C1C1FFD8A009806E0 /* Main.storyboard */,
 				A6E5D10F1C1FFD8A009806E0 /* Images.xcassets */,
 				A6E5D1111C1FFD8A009806E0 /* LaunchScreen.xib */,
@@ -219,7 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6E5D10B1C1FFD8A009806E0 /* ViewController.m in Sources */,
+				A6E5D12C1C200E55009806E0 /* ViewController.m in Sources */,
 				A6E5D1081C1FFD8A009806E0 /* AppDelegate.m in Sources */,
 				A6E5D1051C1FFD8A009806E0 /* main.m in Sources */,
 			);
@@ -347,6 +351,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyManualLog",
+				);
 				INFOPLIST_FILE = MyManualLog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +365,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyManualLog",
+				);
 				INFOPLIST_FILE = MyManualLog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
